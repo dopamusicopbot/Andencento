@@ -1,32 +1,43 @@
-# Andencento
-
-# A STABLE USERBOT BASED ON TELETHON
-# DEVS
-#### Aman Pandey
-#### Noob Stranger
-#### MadBoy
-#### GODBOYX
-#### Shivansh Rajput
-
-## SOME INFO
-[![Stars](https://img.shields.io/github/stars/Andencento/Andencento?style=flat-square&color=yellow)](https://github.com/Andencento/Andencento/stargazers)
-[![Forks](https://img.shields.io/github/forks/Andencento/Andencento?style=flat-square&color=orange)](https://github.com/Andencento/Andencento/fork)
-[![Size](https://img.shields.io/github/repo-size/Andencento/Andencento?style=flat-square&color=green)](https://github.com/Andencento/Andencento)   
-[![Python](https://img.shields.io/badge/Python-v3.9-blue)](https://www.python.org/)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Noob-Stranger/andencento/graphs/commit-activity)
-[![Close Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/Andencento/Andencento/)
-[![Contributors](https://img.shields.io/github/contributors/Andencento/Andencento?style=flat-square&color=pink)](https://github.com/Andencento/Andencento/graphs/contributors)
-
-## Inspirations
-- Darkcobra
-- Uniborg
+# VCBOT
+Fully working VC (user)Bot, based on py-tgcalls and py-tgcalls-wrapper with minimal [features](#TODO).   
 
 
+## Deploying
+* To heroku:   
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](http://heroku.com/deploy?template=https://github.com/xditya/VCBot)   
+
+* Local machine/VPS:   
+`git clone https://github.com/xditya/VCBot`   
+`pip install -r requirements.txt`   
+`apt-get install ffmpeg`   
+`touch .env && nano .env`, fill in the vars as in [.env.sample](./.env.sample)   
+`python bot.py`   
+
+## SESSION
+Either run [sessiongen.py](./sessiongen.py) locally or run it on [repl.it by clicking here.](https://replit.com/@xditya/PyroSessionGen)
+## Commands:   
+- `!on` - Check if the (user)bot is online.   
+- `!help` - Help message.   
+- `!stream` - Either give a youtube URL or reply to a telegram file to play it.   
+- `!pause` - Pause the stream.   
+- `!resume` - Yes, resume.   
+
+## Support
+- [@BotzHub](https://t.me/BotzHubChat)   
 
 
-## Deploy To Heroku
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Andencento/Deploy-Andencento)
+## TODO
+(Contributions accepted, I'm lazy af.)    
+- A queue system.   
+- Play with song name.   
+- Auto-leave VC on song end.   
+- JoinVC/LeaveVC.   
+- Updater.   
 
 
-## Andencento Session
-[![Andencento Session](https://repl.it/badge/github/Andencento/Andencento)](https://replit.com/@madboy482/Session-Andencento/)
+## Credits
+- [pytgcalls](https://github.com/pytgcalls/pytgcalls)   
+- [pytgcalls-wrapper](https://github.com/callsmusic/pytgcalls-wrapper)   
+- [Pyrogram](https://github.com/pyrogram/pyrogram)   
+- [Me](https://github.com/xditya)   
+- Everyone who [contributed](https://github.com/xditya/VCBot/graphs/contributors).
