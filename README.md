@@ -4,7 +4,7 @@ Fully working VC (user)Bot, based on py-tgcalls and py-tgcalls-wrapper with mini
 
 ## Deploying
 * To heroku:   
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](http://heroku.com/deploy?template=https://github.com/xditya/VCBot)   
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](http://heroku.com/deploy?template=https://github.com/Andencento/Andencento/tree/vc)   
 
 * Local machine/VPS:   
 `git clone https://github.com/xditya/VCBot`   
@@ -21,9 +21,7 @@ Either run [sessiongen.py](./sessiongen.py) locally or run it on [repl.it by cli
 - `!stream` - Either give a youtube URL or reply to a telegram file to play it.   
 - `!pause` - Pause the stream.   
 - `!resume` - Yes, resume.   
-
-## Support
-- [@BotzHub](https://t.me/BotzHubChat)   
+  
 
 
 ## TODO
@@ -39,5 +37,5 @@ Either run [sessiongen.py](./sessiongen.py) locally or run it on [repl.it by cli
 - [pytgcalls](https://github.com/pytgcalls/pytgcalls)   
 - [pytgcalls-wrapper](https://github.com/callsmusic/pytgcalls-wrapper)   
 - [Pyrogram](https://github.com/pyrogram/pyrogram)   
-- [Me](https://github.com/xditya)   
-- Everyone who [contributed](https://github.com/xditya/VCBot/graphs/contributors).
+- [Aditya](https://github.com/xditya)   
+- Everyone who [contributed](https://github.com/Andencento/Andencento/graphs/contributors).
