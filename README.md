@@ -15,7 +15,7 @@
 
 3. Clcik on the `Deploy to Heroku` button below. Fill in the required fields on the website that opens.
 
-- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy=https://github.com/Andencento/Andencento/tree/vc)
+- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](http://heroku.com/deploy?template=https://github.com/Andencento/Andencento/tree/vc)
 
 4. Add the bot to your group and send the [commands](https://github.com/Andencento/Andencento#features) to start using the VCPlayer Bot :)
 
