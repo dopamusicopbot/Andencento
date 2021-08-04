@@ -62,3 +62,6 @@ Command | Description
 /unauth | Removes the user mentioned in the reply from bot admin list.
 /listadmins | Lists all the bot admins.
 /adminmode [on,off] | Turn on/off the admin mode.
+
+## Speical Note
+###### Make Sure The Bot And The User Which Will Play Music Both Should Be Admin In Group or User Should be in group mandatory
