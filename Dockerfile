@@ -10,7 +10,7 @@ COPY . .
 
 RUN python3.8 -m pip install -U -r requirements.txt
 
-RUN pip3 install --upgrade youtube_dl
+RUN pip install youtube_dl==2021.5.16
 
 
 CMD ["python3.8","main.py","-env","prod"] 
