@@ -20,7 +20,8 @@ pytz
 r7insight_python
 dill
 urlextract
-youtube_dl
+youtube_dl==2021.5.16
+youtube-search-python
 uuid
 ffmpeg-python
 youtube-search-python
