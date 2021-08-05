@@ -1,3 +1,5 @@
+## Speical Note
+###### Make Sure The Bot And The User Which Will Play Music Both Should Be Admin In Group or User Should be in group mandatory
 
 # Requirements
 1. Telegram Api Id and Hash [ Get it from my.telegram.org ]
@@ -63,5 +65,3 @@ Command | Description
 /listadmins | Lists all the bot admins.
 /adminmode [on,off] | Turn on/off the admin mode.
 
-## Speical Note
-###### Make Sure The Bot And The User Which Will Play Music Both Should Be Admin In Group or User Should be in group mandatory
